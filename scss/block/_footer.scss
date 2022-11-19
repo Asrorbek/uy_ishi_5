@@ -1,0 +1,28 @@
+.site-footer {
+    background-color: #2C343E
+    ;
+    padding: 47px 0;
+
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        gap: 33px;
+        margin-left: 103px;
+    }
+
+    &__link {
+        @include nav_link;
+    }
+
+    .icon {
+        margin-left: auto;
+    }
+
+    .icon__link + .icon__link {
+        margin-left: 24px;
+    }
+}

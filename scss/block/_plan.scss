@@ -1,0 +1,28 @@
+.plan {
+    
+    &__block {
+        background-image: url(../../img/create.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 450px;
+        padding: 134px 0 0 85px;
+        
+    }
+
+    &__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        @include text;
+        width: 445px;
+    }
+
+
+}
+
+

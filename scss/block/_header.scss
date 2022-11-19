@@ -1,0 +1,19 @@
+.site-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 32px;
+    :hover {
+        color:aqua;
+    }
+}
+
+.nav__link {
+    @include nav_link;   
+}
+
